@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  node-1:
+    image:
+      a6b8/ra-node-p5js
+  lb:
+    image: rancher/lb-service-haproxy:v0.7.9
+    ports:
+    - 8087:8087/tcp
