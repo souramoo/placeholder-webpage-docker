@@ -1,5 +1,5 @@
 ## Template to deploy a Node.js / p5.js Sketch with Docker-Compose to Rancher (Cattle)
-This Template generates an (Node.js) Express Webserver and serves a p5.js Sketch. The 'Dockerfile' handles containerization process and exposes the port 8085. The 'Docker-Compose.yml' deploys the container and a Loadbalancer for accessing and scale the service inside the container. The 'Rancher-Composer.yml' connects both containers p5js and loadbalancer  
+This Template generates an (Node.js) Express Webserver and serves a p5.js Sketch. The 'Dockerfile' handles containerization process and exposes the port 8085. The 'docker-compose.yml' deploys the stack of containers. A Loadbalancer for accessing and scale the service is inside the stack. The 'rancher-compose.yml' connects both containers p5js and loadbalancer  
 
 ### Setup Rancher-Cli  
 [Rancher-Cli Installation](http://rancher.com/docs/rancher/latest/en/cattle/rancher-compose/)  
@@ -7,7 +7,7 @@ This Template generates an (Node.js) Express Webserver and serves a p5.js Sketch
 ### Quick Start
 #### From Docker-Compose File > Rancher  
 ```  
-git clone   https://github.com/a6b8/rancher-docker-compose-nodejs-p5js-template
+git clone https://github.com/a6b8/rancher-docker-compose-nodejs-p5js-template.git
 cd ra-node-p5js 
 rancher-compose -p #{service_name} up 
 ```  
