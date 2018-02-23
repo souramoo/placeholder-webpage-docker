@@ -7,7 +7,7 @@ This Template generates an (Node.js) Express Webserver and serves a p5.js Sketch
 ### Quick Start
 #### From Docker-Compose File > Rancher  
 ```  
-git clone https://github.com/a6b8/ra-node-p5js.git  
+git clone   https://github.com/a6b8/rancher-docker-compose-nodejs-p5js-template
 cd ra-node-p5js 
 rancher-compose -p #{service_name} up 
 ```  
