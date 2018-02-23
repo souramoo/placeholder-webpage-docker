@@ -17,7 +17,7 @@ rancher-compose -p #{service_name} up
 #### 1. [via Local] 'Dockerfile' > Docker-Compose > Rancher  
   
 ```   
-git clone https://github.com/a6b8/ra-node-p5js.git  
+git clone https://github.com/a6b8/rancher-docker-compose-nodejs-p5js-template.git
 cd ra-node-p5js
 ```  
   
