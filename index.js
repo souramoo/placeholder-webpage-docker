@@ -20,20 +20,17 @@ stream.once('open', function(fd) {
 
 
  app.get(/^(.+)$/, function(req, res){ 
-     // console.log('static file request : ' + req.params, {docker_test_value:docker_test_value});
-      //app.use(express.static(__dirname + '/'));
-
-file = __dirname + "/public"  + req.params[0]
-console.log(file)
-if(!fs.existsSync(file)) {
-  console.log(file);
-  res.redirect('/');
-} else {
-      res.sendfile(file); 
-      //console.log("------------")
-      //console.log(__dirname)
-      //console.log(req.params[0])
-}
+    file = __dirname + "/public"  + req.params[0]
+    console.log(file)
+    if(!fs.existsSync(file)) {
+      console.log(file);
+      res.redirect('/');
+    } else {
+          res.sendfile(file); 
+          //console.log("------------")
+          //console.log(__dirname)
+          //console.log(req.params[0])
+    }
      //res.render(__dirname + req.params[0], {docker_test_value:docker_test_value});
  });
 
