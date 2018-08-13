@@ -34,7 +34,7 @@ The Webserver use Port: **8085**
 ## Getting Started
 There are 2 ways to deploy the images:
 
-1. Quickstart: Deploy the image from the pre-build docker image
+1. Deploy the image from the pre-build docker image [https://hub.docker.com/r/a6b8/placeholder-webpage-docker/](https://hub.docker.com/r/a6b8/placeholder-webpage-docker/)
 2. Build your own image, upload it to docker hub and deploy from your own account
 
 
