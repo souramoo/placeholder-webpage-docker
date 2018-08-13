@@ -2,9 +2,9 @@
 
 In this repo contains all files to build and setup a docker image to create a Placeholder- (Status- / Fallback- ...) Webpage behind a load balancer. The image uses a nodejs/express server with the javascript library p5js for the animation ( inspired by [Atari Bouncing Ball](https://www.youtube.com/watch?v=BvSP2JUDk80) ) and dom creation. The text and the images have default variables set but can be changed by the docker environemnt feature (-e / -environment). The Idea was to build a docker image, in a quick and elegant way, which can be inplemented in a larger docker-compose files without dependencies. The pre-build image can be found on docker hub. 100 % of the Text & Images can be changed via the environment variables.
 
+Port exposed: **8085**
 
-
-The Image expose Port: 8085
+**Libraries used:**
 - [x] P5Js
 - [x] Express
 - [x] NodeJS
@@ -12,7 +12,7 @@ The Image expose Port: 8085
 - [x] Docker-Compose
 - [x] Cattle (Rancher) ready
 
-Environment Variables: 
+**Environment Variables:**
 - PAGETITLE (default: "PAGETITLE")
 - HEADLINE (default: "HEADLINE")
 - DESCRIPTION (default: "DESCRIPTION")
@@ -23,6 +23,7 @@ Environment Variables:
 - URL_FOOTER_LEFT (default: "https://www.example.com/footer_left")
 - URL_FOOTER_RIGHT_NAME (default: "ABCDEFGHIJKLM-RIGHT")
 - URL_FOOTER_RIGHT (default: "https://www.example.com/footer_right")
+
 
 ## Preview: 
 [Index.html](http://htmlpreview.github.io/?https://github.com/a6b8/customizable-placeholder-webpage-docker/blob/master/public/index.html)
