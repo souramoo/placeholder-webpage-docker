@@ -44,9 +44,21 @@ There are 2 ways to deploy the images:
 
 ### 2. Build your own Image from Source
 
+Clone & Load Dependencies
 ```
 git clone https://github.com/a6b8/placeholder-webpage-docker.git
 cd placeholder-webpage-docker/
 npm install
+```
 
+Test Webbrowser
+```
+node index.js
+goto >> http://localhost:8085
+```
+
+Build Image & Push to Docker Hub
+```
+docker build -t #{docker_hub_username}/#{image_name} 
+docker push #{docker_hub_username}/#{image_name} 
 ```
