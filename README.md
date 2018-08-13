@@ -28,8 +28,7 @@ Port exposed: **8085**
 
 
 
-## Preview: 
-[Index.html](http://htmlpreview.github.io/?https://github.com/a6b8/customizable-placeholder-webpage-docker/blob/master/public/index.html)
+**Preview:** [Index.html](http://htmlpreview.github.io/?https://github.com/a6b8/customizable-placeholder-webpage-docker/blob/master/public/index.html)
 
 
 ## Getting Started
