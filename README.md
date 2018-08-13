@@ -40,6 +40,17 @@ There are 2 ways to deploy the images:
 
 ### 1. Quick Start
 #### with Docker
+Example 1:
+Run in the Background (-d), Make Port 4242 Public (-p), Change Text (-e)
+```
+docker run -d -p 4242:8085 -e HEADLINE="My New Headline One" a6b8/placeholder-webpage-docker:latest
+```
+
+Example 1:
+```
+```
+
+
 #### with Docker-Compose
 
 ### 2. Build your own Image from Source
