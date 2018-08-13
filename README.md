@@ -69,6 +69,12 @@ a6b8/placeholder-webpage-docker
 
 #### YAML Files (docker-compose)
 
+
+#### Remove --all-- Containers
+```
+docker kill $(docker ps -q) && docker rm $(docker ps -a -q)
+```
+
 ### 2. Build your own Image from Source
 
 Clone & Load Dependencies
