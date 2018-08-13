@@ -10,6 +10,8 @@ The Image expose Port: 8085
 - [x] Docker-Compose
 - [x] Cattle (Rancher) ready
 
+Preview: [Index.html](http://htmlpreview.github.io/?https://github.com/a6b8/customizable-placeholder-webpage-docker/blob/master/public/index.html)
+
 
 ## Getting Started
 There are 2 ways to deploy the images:
