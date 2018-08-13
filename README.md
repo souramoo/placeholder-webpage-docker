@@ -4,6 +4,7 @@ In this repo contains all files to build and setup a docker image to create a Pl
 
 Port exposed: **8085**
 
+
 **Libraries used:**
 - [x] P5Js
 - [x] Express
@@ -11,6 +12,7 @@ Port exposed: **8085**
 - [x] Docker 
 - [x] Docker-Compose
 - [x] Cattle (Rancher) ready
+
 
 **Environment Variables:**
 - PAGETITLE (default: "PAGETITLE")
@@ -23,6 +25,7 @@ Port exposed: **8085**
 - URL_FOOTER_LEFT (default: "https://www.example.com/footer_left")
 - URL_FOOTER_RIGHT_NAME (default: "ABCDEFGHIJKLM-RIGHT")
 - URL_FOOTER_RIGHT (default: "https://www.example.com/footer_right")
+
 
 
 ## Preview: 
