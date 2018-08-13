@@ -1,4 +1,1 @@
-var title = 'undefined'
-var description = 'undefined'
-var url = 'undefined'
-var name = 'undefined'
+{"name":"not-found","title":"not-found","url_image":"not-found","url_homepage":"not-found","description":"not-found"}

@@ -1,8 +1,11 @@
-html, body {
-    font-family: 'Open Sans', sans-serif;
-    background: #f8f8f8 url("dedeedsdfsfdfdssdf.png") repeat-x;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url(Oswald-Bold.ttf);
 }
+
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url(Oswald-Medium.ttf);
+}
+
+
