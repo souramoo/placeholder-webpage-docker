@@ -50,6 +50,20 @@ docker run -d -p 4242:8085 -e HEADLINE="My New Headline One" a6b8/placeholder-we
 
 Example 2:
 ```
+docker run \
+-d \
+-p 4242:8085 \
+-e PAGETITLE="Example Two" \
+-e HEADLINE="Headline Two" \
+-e DESCRIPTION="Description Two" \
+-e URL_HOMEPAGE="https://www.google.com" \
+-e EMAIL="me@me.com" \
+-e URL_IMAGE="https://googlechrome.github.io/samples/picture-element/images/butterfly.jpg" \
+-e URL_FOOTER_LEFT_NAME="LEFT" \
+-e URL_FOOTER_LEFT="https://www.example.com/left" \
+-e URL_FOOTER_RIGHT_NAME="        RIGHT" \
+-e URL_FOOTER_RIGHT="https://www.example.com/right" \
+a6b8/placeholder-webpage-docker
 ```
 
 
