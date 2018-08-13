@@ -43,3 +43,10 @@ There are 2 ways to deploy the images:
 #### with Docker-Compose
 
 ### 2. Build your own Image from Source
+
+```
+git clone https://github.com/a6b8/placeholder-webpage-docker.git
+cd placeholder-webpage-docker/
+npm install
+
+```
