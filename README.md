@@ -5,7 +5,9 @@ In this repo contains all important files to build a docker image to setup a def
 There are 2 ways to deploy the images:
 
 1. Deploy the image from the pre-build docker image
+
 1.1. Deploy with Docker
+
 1.2. Deploy with Docker-Compose
 
 2. Build your own image, upload it to docker hub and deploy from your own account
