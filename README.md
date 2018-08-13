@@ -59,6 +59,6 @@ goto >> http://localhost:8085
 
 Build Image & Push to Docker Hub
 ```
-docker build -t {{docker_hub_username}}/{{image_name}}
+docker build -t {{docker_hub_username}}/{{image_name}} .
 docker push {{docker_hub_username}}/{{image_name}}
 ```
