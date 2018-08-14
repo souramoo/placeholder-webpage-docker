@@ -1,3 +1,5 @@
+Preview: [HTML](http://htmlpreview.github.io/?https://github.com/a6b8/placeholder-webpage-docker/blob/master/public/index.html)   |   Docker Hub: [Pre-Build Image](https://hub.docker.com/r/a6b8/placeholder-webpage-docker/)
+
 # Placeholder Webpage with Docker
 
 In this repo contains all files to build and setup a docker image to create a Placeholder- (Status- / Fallback- ...) Webpage behind a load balancer. The image uses a nodejs/express server with the javascript library p5js for the animation ( inspired by [Atari Bouncing Ball](https://www.youtube.com/watch?v=BvSP2JUDk80) ) and dom creation. The text and the images have default variables set but can be changed by the docker environemnt feature (-e / -environment). The Idea was to build a docker image, in a quick and elegant way, which can be inplemented in a larger docker-compose files without dependencies. The pre-build image can be found on docker hub. 100 % of the Text & Images can be changed via the environment variables.
