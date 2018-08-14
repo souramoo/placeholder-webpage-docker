@@ -64,7 +64,7 @@ docker run \
 -e URL_FOOTER_LEFT="https://www.example.com/left" \
 -e URL_FOOTER_RIGHT_NAME="        RIGHT" \
 -e URL_FOOTER_RIGHT="https://www.example.com/right" \
-a6b8/placeholder-webpage-docker
+a6b8/placeholder-webpage-docker:latest
 ```
 
 
@@ -79,8 +79,10 @@ Change yml values
 ```
 version: "2"
 services:
-  node-1:
-    image: a6b8/placeholder-webpage-docker
+  placeholder-webpage:
+    image: a6b8/placeholder-webpage-docker:latest
+    ports:
+      - "4242:8085"
     environment:
       PAGETITLE: "Example Two"
       HEADLINE: "Headline Two"
@@ -92,14 +94,32 @@ services:
       URL_FOOTER_LEFT: "https://www.example.com/left"
       URL_FOOTER_RIGHT_NAME: "        RIGHT"
       URL_FOOTER_RIGHT: "https://www.example.com/right"
-    ports:
-      - "4242:8085"
 ```
 
 Deploy
 ```
 docker-compose up
 ```
+
+#### HA-Proxy
+```
+version: "2"
+services:
+  placeholder-webpage:
+    image: a6b8/placeholder-webpage-docker:latest
+    environment:
+      PAGETITLE: "Example Two"
+      HEADLINE: "Headline Two"
+      DESCRIPTION: "Description Two"
+      URL_HOMEPAGE: "https://www.google.com"
+      EMAIL: "me@me.com"
+      URL_IMAGE: "https://googlechrome.github.io/samples/picture-element/images/butterfly.jpg"
+      URL_FOOTER_LEFT_NAME: "LEFT"
+      URL_FOOTER_LEFT: "https://www.example.com/left"
+      URL_FOOTER_RIGHT_NAME: "        RIGHT"
+      URL_FOOTER_RIGHT: "https://www.example.com/right"
+```
+
 
 #### Remove --all-- Containers
 ```
