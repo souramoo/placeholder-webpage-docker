@@ -42,19 +42,17 @@ There are 2 ways to deploy the images:
 
 
 ### 1. Quick Start
-#### Run From Terminal (docker run)
+#### Docker run
 Example 1:
-- Run in the Background (-d), 
 - Make Port 4242 Public (-p), 
 - Change Text (-e)
 ```
-docker run -d -p 4242:8085 -e HEADLINE="My New Headline One" a6b8/placeholder-webpage-docker:latest
+docker run -p 4242:8085 -e HEADLINE="My New Headline One" a6b8/placeholder-webpage-docker:latest
 ```
 
 Example 2:
 ```
 docker run \
--d \
 -p 4242:8085 \
 -e PAGETITLE="Example Two" \
 -e HEADLINE="Headline Two" \
@@ -70,17 +68,16 @@ a6b8/placeholder-webpage-docker
 ```
 
 
-#### Run YAML File (docker-compose.yml)
+#### Docker-Compose
 load repository
 ```
 git clone https://github.com/a6b8/placeholder-webpage-docker.git
 cd placeholder-webpage-docker/
 ```
 
-change yml values 
+Change yml values 
 ```
 version: "2"
-
 services:
   node-1:
     image: a6b8/placeholder-webpage-docker
@@ -99,10 +96,10 @@ services:
       - "4242:8085"
 ```
 
-run
+Deploy
 - docker compose background (-d)
 ```
-docker-compose -d up
+docker-compose up
 ```
 
 #### Remove --all-- Containers
