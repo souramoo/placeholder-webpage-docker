@@ -5,13 +5,14 @@ In this repo contains all files to build and setup a docker image to create a Pl
 The Webserver use Port: **8085**
 
 
-**Libraries used:**
-- [x] P5Js
-- [x] Express
-- [x] NodeJS
-- [x] Docker 
-- [x] Docker-Compose
-- [x] Cattle (Rancher) ready
+**Features:**
+- [x] All Variables Customizable
+- [x] P5Js - Dom creation and Animation
+- [x] Express - Server
+- [x] NodeJS - Hand Variables from Docker to P5js
+- [x] Docker - Container Build
+- [x] Docker-Compose - Deploy Structure
+- [x] Cattle (Rancher) - Infrastructure
 
 
 **Environment Variables:**
