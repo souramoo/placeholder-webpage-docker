@@ -39,7 +39,7 @@ There are 2 ways to deploy the images:
 
 
 ### 1. Quick Start
-#### From Terminal (docker run)
+#### Run From Terminal (docker run)
 Example 1:
 - Run in the Background (-d), 
 - Make Port 4242 Public (-p), 
@@ -67,7 +67,7 @@ a6b8/placeholder-webpage-docker
 ```
 
 
-#### YAML Files (docker-compose.yml)
+#### Run YAML File (docker-compose.yml)
 load repository
 ```
 git clone https://github.com/a6b8/placeholder-webpage-docker.git
