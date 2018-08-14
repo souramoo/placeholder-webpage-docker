@@ -69,7 +69,7 @@ a6b8/placeholder-webpage-docker
 
 
 #### Docker-Compose
-load repository
+Pull Repository
 ```
 git clone https://github.com/a6b8/placeholder-webpage-docker.git
 cd placeholder-webpage-docker/
@@ -97,7 +97,6 @@ services:
 ```
 
 Deploy
-- docker compose background (-d)
 ```
 docker-compose up
 ```
