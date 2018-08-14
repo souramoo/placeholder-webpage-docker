@@ -18,16 +18,16 @@ The Docker Image use Port: **8085**
 
 
 **Environment Variables:**
-- PAGETITLE (default: "PAGETITLE")
-- HEADLINE (default: "HEADLINE")
-- DESCRIPTION (default: "DESCRIPTION")
-- URL_HOMEPAGE (default: "")
-- EMAIL (default: "")
-- URL_IMAGE (default: "https://googlechrome.github.io/samples/picture-element/images/kitten-large.png")
-- URL_FOOTER_LEFT_NAME (default: "ABCDEFGHIJKLM-LEFT")
-- URL_FOOTER_LEFT (default: "https://www.example.com/footer_left")
-- URL_FOOTER_RIGHT_NAME (default: "ABCDEFGHIJKLM-RIGHT")
-- URL_FOOTER_RIGHT (default: "https://www.example.com/footer_right")
+- `PAGETITLE` (default: "PAGETITLE")
+- `HEADLINE` (default: "HEADLINE")
+- `DESCRIPTION` (default: "DESCRIPTION")
+- `URL_HOMEPAGE` (default: "")
+- `EMAIL` (default: "")
+- `URL_IMAGE` (default: "https://googlechrome.github.io/samples/picture-element/images/kitten-large.png")
+- `URL_FOOTER_LEFT_NAME` (default: "ABCDEFGHIJKLM-LEFT")
+- `URL_FOOTER_LEFT` (default: "https://www.example.com/footer_left")
+- `URL_FOOTER_RIGHT_NAME` (default: "ABCDEFGHIJKLM-RIGHT")
+- `URL_FOOTER_RIGHT` (default: "https://www.example.com/footer_right")
 
 
 
