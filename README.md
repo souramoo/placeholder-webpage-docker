@@ -67,7 +67,14 @@ a6b8/placeholder-webpage-docker
 ```
 
 
-#### YAML Files (docker-compose)
+#### YAML Files (docker-compose.yml)
+load repository
+```
+git clone https://github.com/a6b8/placeholder-webpage-docker.git
+cd placeholder-webpage-docker/
+```
+
+change yml values 
 ```
 version: "2"
 
@@ -87,6 +94,12 @@ services:
       URL_FOOTER_RIGHT: "https://www.example.com/right"
     ports:
       - "4242:8085"
+```
+
+run
+- docker compose background (-d)
+```
+docker-compose -d up
 ```
 
 #### Remove --all-- Containers
