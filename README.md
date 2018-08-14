@@ -101,7 +101,7 @@ Deploy
 docker-compose up
 ```
 
-#### HA-Proxy
+#### HA-Proxy Snippet
 ```
 version: "2"
 services:
