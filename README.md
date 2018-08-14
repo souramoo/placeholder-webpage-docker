@@ -10,9 +10,9 @@ The Webserver use Port: **8085**
 - [x] P5Js - Dom creation and Animation
 - [x] Express - Server
 - [x] NodeJS - Hand Variables from Docker to P5js
-- [x] Docker - Container Build
-- [x] Docker-Compose - Deploy Structure
-- [x] Cattle (Rancher) - Infrastructure
+- [x] Docker - Container Build/Image
+- [x] Docker-Compose Ready - Deploy Structure
+- [x] Cattle (Rancher) Ready - Infrastructure
 
 
 **Environment Variables:**
