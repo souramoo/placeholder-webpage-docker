@@ -1,14 +1,10 @@
-version: "2"
+version: '2.1'
 
 services:
-  node-1:
-    build: .
-    environment:
-      TITLE: 'FILE NOT FOUND'
-      DESCRIPTION: '404'
-      NAME: 'https://www.domain.de'
-      URL: 'https://www.domain.de'
-  lb:
-    image: rancher/lb-service-haproxy:v0.7.9
+  placeholder:
+    image: ghcr.io/souramoo/placeholder-webpage-docker:latest
     ports:
-    - 8087:8087/tcp
+      - "127.0.0.1:19595:8085"
+    environment:
+      HEADLINE: "Murray Edwards Garden Party 2023 Ticketing"
+
