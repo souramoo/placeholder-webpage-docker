@@ -6,5 +6,5 @@ services:
     ports:
       - "127.0.0.1:19595:8085"
     environment:
-      HEADLINE: "Murray Edwards Garden Party 2023 Ticketing"
+      HEADLINE: "xxx 2023 Ticketing"
 
